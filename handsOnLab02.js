@@ -44,3 +44,4 @@ ticket.addEvent({ name: "hp", place: "arg", price: 5, capacity: 1000, date: new 
 ticket.addEvent({name:"pokemon",place:"japon",price:5 ,capacity: 1000,date: new Date("05/20/2023")})
 ticket.getEvents()
 
+// probando crear pull-request
