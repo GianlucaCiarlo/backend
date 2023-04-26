@@ -22,13 +22,13 @@ class ProductManager{
     addProduct({ title, description, price, thumbnail, code, stock }) {
         let id= 0
         if (this.getProducts.length === 0) {
-            id= 1
+            id= 0
         } else {
             let lastProduct = this.getProducts[this.getProducts.length - 1]
             id = lastProduct.id + 1
 
         }
-        id = 1
+        id  
         let product = { title, description, price, thumbnail, code, stock, id }
         this.getProduct.push(product)
 
@@ -50,3 +50,8 @@ products.addProduct({ title: "Estancia Blanco", description: "Vino blanco chardo
 
 products.getProducts()
 products.getProductById
+
+
+
+
+
